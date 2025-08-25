@@ -1,7 +1,7 @@
 # Alice in Wonderland: Interactive Storytelling 🐰
 
 A sophisticated RAG-enhanced interactive storytelling application that creates personalized Alice in Wonderland adventures. Your choices shape the story while the original Lewis Carroll text provides authentic inspiration, all presented through a beautiful Alice-themed user interface.
-
+![Demo of Alice in Wonderland Interactive Storytelling](demo.gif)
 ## ✨ Features
 
 - **Interactive Storytelling**: Your choices determine the adventure path through an intuitive web interface
