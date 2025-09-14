@@ -1,8 +1,8 @@
-# Alice in Wonderland: Interactive Storytelling 🐰
+# Alice in Wonderland: Interactive Storytelling
 
 A sophisticated RAG-enhanced interactive storytelling application that creates personalized Alice in Wonderland adventures. Your choices shape the story while the original Lewis Carroll text provides authentic inspiration, all presented through a beautiful Alice-themed user interface.
 ![Demo of Alice in Wonderland Interactive Storytelling](demo.gif)
-## ✨ Features
+## Features
 
 - **Interactive Storytelling**: Your choices determine the adventure path through an intuitive web interface
 - **RAG Technology**: Retrieves relevant passages from the original Alice in Wonderland text
@@ -13,7 +13,7 @@ A sophisticated RAG-enhanced interactive storytelling application that creates p
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Authentic Alice Content**: All stories inspired by Carroll's original text
 
-## 🚀 Quick Start
+## Quick Start
 
 #### Prerequisites
 - Python 3.8 or higher
@@ -39,7 +39,7 @@ A sophisticated RAG-enhanced interactive storytelling application that creates p
 
 4. **Open your browser** to the URL shown (usually `http://localhost:8501`)
 
-## 🎮 How to Use
+## How to Use
 
 1. **Start Your Adventure**: Choose from three starting scenarios on the welcome screen
 2. **Make Choices**: At each turn, select from three AI-generated options using the styled buttons
@@ -49,7 +49,7 @@ A sophisticated RAG-enhanced interactive storytelling application that creates p
 6. **Reset Anytime**: Use the "Reset Adventure" button to start over with a fresh story
 
 
-## 🔧 Technical Architecture
+## Technical Architecture
 
 ### Core Components
 - **Knowledge Base**: FAISS vector database storing Alice text chunks
@@ -65,13 +65,13 @@ A sophisticated RAG-enhanced interactive storytelling application that creates p
 4. Story and new choices are presented to user
 5. Process repeats, building narrative history
 
-## 📊 System Requirements
+## System Requirements
 
 - **Memory**: ~2GB RAM (for embedding model and Alice text)
 - **Storage**: ~500MB (for cached models and data)
 - **Network**: Required for initial setup and API calls
 
-## 📝 Application Architecture
+## Application Architecture
 
 The Streamlit app (`streamlit_app.py`) contains the complete, production-ready implementation:
 
@@ -84,11 +84,11 @@ The Streamlit app (`streamlit_app.py`) contains the complete, production-ready i
 
 The included Jupyter notebook (`Interactive_Storytelling_final.ipynb`) serves as development documentation, showing the step-by-step implementation process.
 
-## 📄 License
+## License
 
 This project uses the public domain Alice in Wonderland text from Project Gutenberg.
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to:
 - Report bugs or issues
